@@ -1,0 +1,13 @@
+Projek Web Dinamis
+ karya : Fatkhur Rifai (14879)
+
+
+Code HTML + CSS + PHP + JS
+	- Masih belum rapih
+	- Masih belum responsif
+	- Masih sederhana
+	- Anti Boostrap
+	- Buat dan ngetik sendiri
+	- Meskipun ada yang lihat sana lihat sini
+
+./NewbieNoob\.
