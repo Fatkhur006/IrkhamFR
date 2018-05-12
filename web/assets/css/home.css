@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  float: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+.float {
+  float: left;
+}
+
+.float1 {
+  float: right;
+}
+
+.position {
+  position: relative;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 70px;
+  background-color: #36C3D6;
+}
+
+.home-bar {
+  margin-top: 15px;
+  margin-left: 10%;
+}
+
+.home-bar-text {
+  font-size: 30px;
+}
+
+.search-bar {
+  margin-right: 10%;
+  margin-top: 15px;
+}
+
+.placeholder {
+  width: 230px;
+  height: 34px;
+  border: 1px solid #BFBFBF;
+  border-radius: 4px;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.login-bar {
+  margin-right: 5%;
+  margin-top: 22px;
+}
+
+.login-bar-text {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .search-bar , .img-row1 {
+      display: none;
+    }
+}
+@media screen and (max-width: 400px) {
+  .login-bar {
+    display: none;
+  }
+}
+.full-half-all {
+  height: 630px;
+  width: 100%;
+  background-color: #36C3D6;
+  z-index: -1;
+}
+
+.v-row1 , .w-row1 , .p-row1 {
+  color: #80D9E5;
+  font-size: 50px;
+  padding-top: 20px;
+  padding-left: 50px;
+  font-weight: bold;
+}
+
+.w-row1 {
+  padding-top: 1px;
+  padding-left: 75px;
+}
+
+.p-row1 {
+  padding-top: 1px;
+  padding-left: 100px;
+}
+
+.intro-row1 {
+  padding-top: 30px;
+  padding-left: 50px;
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.row2 {
+  width: 100%;
+  height: 330px;
+  background-color: #109DAD;
+  z-index: -2;
+}
+
+.col1-row2 , .col2-row2 , .col3-row2 {
+  float: left;
+  margin-top: 70px;
+  width: 31.3%;
+}
+
+.col1-row2 {
+  margin-left: 6%;
+}
+
+@media screen and (max-width: 900px) {
+    .col3-row2 {
+      display: none;
+    }
+    .col1-row2 , .col2-row2 {
+      width: 40%;
+      margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+  .col2-row2 {
+    display: none;
+  }
+  .col1-row2 {
+    margin-top: 270px;
+    margin-left: 200px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .row2 {
+    display: none;
+  }
+}
+
+.col1-c1 , .col2-c1 , .col3-c1 {
+  font-size: 30px;
+}
+
+.col1-c2 , .col2-c2 , .col3-c2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.col1-c3 , .col2-c3 , .col3-c3 {
+  margin-left: 160px;
+  font-size: 25px;
+  color: #262626;
+}
+
+.row3 {
+  height: 320px;
+  width: 100%;
+  background-color: #0D7F8C;
+}
+
+.user-row3 {
+  margin-left: 100px;
+}
+
+.col1-row3 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.col2-row3 {
+  font-size: 23px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.col3-row3 {
+  margin-left: 300px;
+  font-size: 25px;
+}
+
+.img-row3 {
+  margin-top: 70px;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.img-user-c4 {
+  margin-left: 90px;
+}
+
+.img-user-c1 , .img-user-c2 , .img-user-c3 {
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 1300px) {
+  .img-user-c2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .img-user-c4 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .img-user-c1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .img-user-c3 {
+    display: none;
+  }
+}
+
+.row4 {
+  width: 100%;
+  height: 530px;
+  background-color: #109DAD;
+}
+
+.img-row4 {
+  margin-top: 20px;
+  margin-left: 15%;
+}
+
+.col2-row4 {
+  margin-right: 15%;
+  margin-top: 200px;
+}
+
+.c1-row4 {
+  font-size: 30px;
+}
+
+.c2-row4 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.c3-row4 {
+  font-size: 25px;
+}
+
+@media screen and (max-width: 880px) {
+  .col2-row4 {
+    display: none;
+  }
+  .img-row4 {
+    margin-left: 35%;
+  }
+}
+
+.background-bawah {
+  background: #109DAD;
+  background: linear-gradient(to bottom, #109DAD 0%, #436880 100%);
+  width: 100%;
+  height: 300px;
+}
+
+.col1-row5 {
+  text-align: center;
+}
+
+.copyright {
+  padding-top: 70px;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+.vwg-row5 {
+  margin-bottom: 25px;
+  font-weight: normal;
+}
+
+.c1-row5 {
+  margin-left: 420px;
+}
+
+.c2-row5 {
+  margin-left: 100px;
+}
+
+.c3-row5 {
+  margin-left: 100px;
+}
+
+.c4-row5 {
+  margin-left: 100px;
+}
+
+.col3-row5 {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 70px;
+}

@@ -1,0 +1,7 @@
+﻿<?php
+
+/**
+  Code by ./NewbieNoob\.
+**/
+
+ ?>

@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  float: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+.float {
+  float: left;
+}
+
+.float1 {
+  float: right;
+}
+
+.position {
+  position: relative;
+}
+
+@media screen and (max-width: 1200px) {
+  .privacy , .contact {
+    display: none;
+  }
+  .copyright {
+    text-align: center;
+  }
+}
+
+.nav-bar {
+  width: 100%;
+  height: 70px;
+  background-color: #36C3D6;
+}
+
+.home-bar {
+  padding-top: 13px;
+}
+
+.home-bar-text {
+  margin-left: 115px;
+  font-size: 30px;
+  color: #109DAD;
+}
+
+.home-bar-text:hover {
+  color: #436880;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 500px) {
+  .home-bar-text {
+    margin-left: 50px;
+  }
+}
+
+.line-bar , .line-bawah {
+  width: 100%;
+  height: 5px;
+  background-color: #109DAD;
+}
+
+.container {
+  background-image: url("../img/signup.png");
+  background-size: cover;
+  height: 900px;
+}
+
+.proceed-signup {
+  top: 40px;
+  right: 115px;
+  width: 450px;
+  height: 820px;
+  border-radius: 4px;
+  background-color: #109DAD;
+  float: right;
+}
+
+.advantureees-website-logo {
+  height: 120px;
+  width: 176px;
+  left: 29%;
+  margin-top: 50px;
+}
+
+.placeholder {
+  width: 330px;
+  height: 44px;
+  border: 1px solid #BFBFBF;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 25px;
+  margin-left: 55px;
+  padding-left: 10px;
+}
+
+.placeholder-c2 {
+  width: 156px;
+  height: 44px;
+  border: 1px solid #BFBFBF;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-left: 55px;
+  margin-top: 45px;
+  padding-left: 10px;
+}
+
+.last {
+  margin-left: 5px;
+}
+
+.select-dropdown-days , .select-dropdown-monts , .select-dropdown-years {
+  margin-left: 55px;
+  margin-top: 25px;
+  overflow: hidden;
+  width: 81px;
+  height: 43px;
+  border: 1px solid #BFBFBF;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: url(https://www.paypalobjects.com/webstatic/i/consumer/onboarding/onboarding_form.png) no-repeat scroll 96% 46%,-webkit-linear-gradient(top,#fff,#fff) 0 0;
+  background-color: #fff;
+}
+
+.days , .monts , .years {
+  width: 69px;
+  padding: 2px 11px 7px;
+  height: 44px;
+  border: 0 none;
+  background: 0 0;
+  outline: 0;
+  -webkit-appearance: none;
+  font-size: 16px;
+  border-left: 10px;
+  border-right: 10px;
+  border-top: 7px;
+  vertical-align: middle;
+}
+
+.select-dropdown-monts {
+  margin-left: 5px;
+  width: 140px;
+}
+
+.monts {
+  width: 139px;
+  padding: 2px 20px 7px;
+}
+
+.select-dropdown-years {
+  margin-left: 5px;
+  width: 110px;
+}
+
+.years {
+  width: 109px;
+  padding: 2px 22px 7px;
+}
+
+.password {
+  margin-top: 25px;
+}
+
+.confirm-password {
+  margin-top: 25px;
+  margin-left: 5px;
+}
+
+.code-phone {
+  margin-left: 60px;
+  line-height: 237px;
+  position: absolute;
+  color: #202020;
+  font-size: 17px;
+  font-family: Helvetica,Arial,sans-serif;
+}
+
+.phone-code {
+  width: 300px;
+  padding-left: 37px;
+}
+
+.signup-button {
+  cursor: pointer;
+  text-align: center;
+  width: 340px;
+}
+
+.already-account {
+  margin-top: 40px;
+  margin-left: 100px;
+  font-size: 19px;
+  right: 40px;
+  color: #161B2D;
+}
+
+.login-account , .privacy {
+  margin-top: 40px;
+  left: 40px;
+  color: #262626;
+  font-size: 19px;
+}
+
+.locked {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 19px;
+  color: #161B2D;
+}
+
+.bawah {
+  width: 100%;
+  height: 55px;
+  background-color: #36C3D6;
+}
+
+.privacy {
+  margin-top: 15px;
+  margin-left: 100%;
+}
+
+.copyright {
+  font-size: 19px;
+  margin-top: 15px;
+  margin-left: 45%;
+}
+
+.contact {
+  top: 15px;
+  right: 200%;
+  color: #262626;
+  font-size: 19px;
+}
